@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <script src="./script.js"></script> -->
+</head>
+<body>
+    <!-- <h2>JavaScript in Head</h2>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Click Me</button> -->
+
+    <!-- <h2>My First JavaScript</h2>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">Click Me to Display Date and Time.</button>
+    <p id="demo"></p> -->
+
+    <!-- <h2>What can JavaScript Do?</h2>
+    <p id="demo">JavaScript can change HTML content</p>
+    <button type="button"
+    onclick='document.getElementById("demo").innerHTML = "Hello Javascript!"'>Click me to change the Paragraph</button> -->
+
+    <!-- <h2>What can JavaScript Do?</h2>
+    <p>Javascript can change html attribute values</p>
+    <p>In this case javascript can change the src attribute of the image tag</p>
+    <button type="button" onclick="document.getElementById('myImage').src = 'pic_bulbon.gif'">Turn on the Light</button>
+    <img src="./pic_bulboff.gif" alt="bulb off" width="100px" id="myImage">
+    <button type="button" onclick="document.getElementById('myImage').src = 'pic_bulboff.gif'">Turn off the Light</button> -->
+
+    <!-- <h2>What can javascript do?</h2>
+    <p id="demo">JavaScript can change the style of the html element</p>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize = '35px'">Click Me</button> -->
+
+    <!-- <h2>What can javascript do?</h2>
+    <p id="demo">JavaScript can hide HTML elements</p>
+    <button type="button" onclick="document.getElementById('demo').style.display = 'none'">Click to hide html paragraph</button> -->
+
+    <!-- <h2>What can JavaScript do?</h2>
+    <p>JavaScript can show hidden elements</p>
+    <p style="display:none" id="demo">Hello JavaScript!</p>
+    <button type="button" onclick="document.getElementById('demo').style.display = 'block'">Click Me to show HTML element</button> -->
+
+    <!-- <p>My First Paragraph</p>
+    <p id="demo"></p> -->
+
+    <!-- <h2>My First WebPage</h2>
+    <p>My First Paragraph</p>
+
+    <button type="button" onclick="document.write(5 + 6)">Try It</button> -->
+
+    <!-- <h2>My First WebPage</h2>
+    <p>My First Paragraph</p> -->
+
+    <!-- <p id="demo"></p> -->
+
+    <!-- <h2>JavaScript Statements</h2>
+
+    <p>How the Paragraph Show?</p>
+
+    <button type="button" onclick="myFunction()">Click Me</button>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p> -->
+
+    <!-- <p id="demo"></p>
+    <p id="demo1"></p>
+    <button type="button" onclick="myFunction()">Click Me</button> -->
+
+    <!-- <p id="demo"></p>
+    <p id="demo1"></p> -->
+
+    <!-- <button onclick="this.innerHTML = 'Sameer Asad'">The time is?</button> -->
+
+    <!-- <button onclick="displayDate()">The time is?</button> -->
+
+    <!-- <input id="age">
+
+    <button type="button" onclick="myFunction()">Click Me</button> -->
+
+    <!-- <button onclick="this.style.display = 'none'">Click to Remove Me!</button> -->
+
+    <p id="demo"></p>
+</body>
+    <script>
+        // document.getElementById("demo").innerHTML = 5 + 6;
+        // document.write(5 + 6);
+        // window.alert(5 + 6);
+        // console.log(5 + 6);
+        // var x = 5;
+        // var y = 6;
+        // var z = x + y;
+        // document.getElementById("demo").innerHTML = "The value of z is " + z + ".";
+        // var person = "Sameer";
+        // var person ="Sameer";
+        // var number = x + y;
+        // document.getElementById("demo").innerHTML = "Hello Dolly ";
+        // document.getElementById("demo").innerHTML =
+        // "Hello Dolly";
+        // function myFunction() {
+        //     document.getElementById("demo1").innerHTML = "Hello I am Demo 1";
+        //     document.getElementById("demo2").innerHTML = "Hello I am Demo 2";
+        // }
+        // var x, y, z;
+        // x = "Sameer";
+        // y = " Asad";
+        // z = x + y;
+        // alert(z);
+        // document.getElementById("demo").innerHTML = 'Sameer Asad';
+        // var x;
+        // x = 6;
+        // alert(x);
+        // var x = "Sameer Asad";
+        // alert(x);
+        // var x = "John";
+        // var a = " ";
+        // var y = "Doe";
+        // document.getElementById('demo').innerHTML = x + a + y;
+        // var x, y;
+        // x = 5 + 5;
+        // y = x + 10;
+        // document.getElementById("demo").innerHTML = y;
+        // var x, y;
+        // x = 5;
+        // y = 7;
+        // var x = 5;
+        // var y = 7;
+        // var z = x + y;
+        // document.getElementById("demo").innerHTML = "The Value of z is " + z + ".";
+        // var price1 = 100;
+        // var price2 = 150;
+        // var total = price1 + price2;
+        // document.getElementById("demo").innerHTML = "The total Price of this amount is " + total + ".";
+        // x = x + 5;
+        // var x;
+        // x = 5;
+        // x = x + 5;
+        // document.getElementById("demo").innerHTML = x;
+        // var num = 314;
+        // var name = "Sameer Asad";
+        // var answer = "Yes, I am!";
+        // var carName;
+        // carName = "Mehran";
+        // var carName = "Corolla";
+        // document.getElementById("demo").innerHTML = carName;
+        // var name, age, car;
+        // name = "Sameer";
+        // age = 19;
+        // car = "Mehran";
+        // document.getElementById("demo").innerHTML = car;
+        // var name = "Sameer Asad", age = 19, car = "Corolla";
+        // document.getElementById("demo").innerHTML = car;
+        // var carName = "Mehran";
+        // var carName;
+        // document.getElementById("demo").innerHTML = carName;
+        // var addNumber = 5 + 9 + 8;
+        // document.getElementById("demo").innerHTML = addNumber;
+        // var firstName = "Sameer";
+        // var lastName = "Asad";
+        // var fullName = firstName + " " + lastName;
+        // document.getElementById("demo").innerHTML = fullName;
+        // var x = 5 + 3 + "5";
+        // document.getElementById("demo").innerHTML = x;
+        // document.getElementById("demo").innerHTML = "Hello World";
+        // function myFunction() {
+        //     document.getElementById("demo").innerHTML = "Hello Dolly";
+        //     document.getElementById("demo1").innerHTML = "Hello World";
+        // }
+        // var x, y, z;
+        // x = 10;
+        // y = 20;
+        // z = x + y;
+        // console.log(z);
+        // var num = 10.500;
+        // console.log(num);
+        // var total = (5 + 6) * 10;
+        // var num = 5 * 10;
+        // var x = 5;
+        // var num = x * 10;
+        // var x, y;
+        // x = 5 + 6;
+        // y = x * 10;
+        // console.log(x);
+        // var carName = "Mehran",
+        // model = 2015, 
+        // color = "red";
+        // document.getElementById("demo").innerHTML = color;
+        // var carName;
+        // carName = "mehran";
+        // var carName;
+        // var x = 100;
+        // var y = 50;
+        // var a = 80;
+        // var z = (100 + 50) * a;
+        // console.log(z);
+        // var x;
+        // x = 5;
+        // x++;
+        // console.log(x);
+        // var x;
+        // x = 5;
+        // x += 5;
+        // console.log(x);
+        // var person = {
+        //     firstName: "Sameer",
+        //     lastName: "Asad"
+        // };
+        // console.log(person.lastName);
+        // var carName = 16 + 20 + "Volvo";
+        // var carName = "Volvo" + 16 + 20;
+        // console.log(carName);
+        // var x = 10;
+        // x = 50;
+        // x = "Mehran";
+        // console.log(x);
+        // var x = 5;
+        // var y = 5;
+        // var z = 10;
+        // var carNames = ["Mehran", "Corolla", "Vitz", "Alto", "Cultus", "Civic"];
+        // var person = {
+        //     firstName: "Sameer",
+        //     lastName: "Asad",
+        //     Age: 19,
+        //     hairColor: "Brown",
+        //     weight: 98
+        // };
+        // person = null;
+        // var x = 15;
+        // function myFunction(p1, p2) {
+        //     return p1 * p2
+        // }
+        // document.getElementById("demo").innerHTML = myFunction(4, 5);
+        // function myFunction(a, b) {
+        //     return a * b;
+        // }
+        // var x = myFunction(4, 5);
+        // document.getElementById("demo").innerHTML = x;
+        // function toSameer(a) {
+        //     return (5 * 9) + (a - 50); 
+        // }
+        // document.getElementById("demo").innerHTML = toSameer(100);
+        // function toCelsius(f) {
+        //     return (5 * 9) + (f - 50);
+        // }
+        // var x = "The temperature is " + toCelsius(70) + " Celsius";
+        // document.getElementById("demo").innerHTML = x;
+        // function myCar() {
+        //     var carName = "Mehran";
+        //     document.getElementById("demo").innerHTML = typeof carName + " " + carName;
+        // }
+        // myCar();
+        // var x = carName;
+        // document.getElementById("demo1").innerHTML = typeof x;
+        // var car = "Mehran";
+        // var car = {
+        //     name: "Mehran",
+        //     color: "red",
+        //     model: 2018,
+        //     madeBy: "Japan
+        // };
+        // var person = {
+        //     name: "Ali",
+        //     lastName: "Majeed",
+        //     gender: "male",
+        //     hairColor: "Black",
+        //     height: "5 inch",
+        // };
+        // var person = {
+        //     firstName: "Sameer",
+        //     lastName: "Asad",
+        //     id: 22,
+        //     fullName: function() {
+        //         return this.firstName + " " + this.lastName;
+        //     }
+        // };
+        // function displayDate() {
+        //     document.getElementById("demo").innerHTML = Date();
+        // }
+        // var x = "Sameer Asad";
+        // var len = x.length;
+        // var x = "We are the so-called \'Vikings\' from the north";
+        // var x = "Sameer";
+        // var y = new String("Sameer");
+        // var x = "Sameer Asad";
+        // var len = x.length;
+        // var x = "Please locate where \"locate\" occurs";
+        // var pos = x.lastIndexOf("locate", 15);
+        // var x = "Please locate where \"locate\" occurs";
+        // var search = x.search("locate");
+        // var names = "Sameer, Saqib, Ali, Sattar";
+        // var ext = names.slice(8, 13);
+        // var names = "Sameer, Saqib, Ali, Sattar";
+        // var ext = names.slice(-18, -13);
+        // var names = "Sameer, Saqib, Ali, Sattar";
+        // var ext = names.slice(-18);
+        // var names = "Sameer, Saqib, Ali, Sattar";
+        // var ext = names.substr(8, 5);
+        // var text = "Please Visit Microsoft and Microsoft Office";
+        // var changeText = text.replace(/Microsoft/g, "All Pakistan Memon Federation House");
+        // var str = "              Hello World!                 ";
+        // var trm = str.trim();
+        // var text = "Hello World!";
+        // var ext = text.charAt(6);
+        // var text = "Hello World!";
+        // var ext = text.charCodeAt(6);
+        // var x = 500;
+        // var y = new Number(500);
+        // var x = 123;
+        // x = x.toString();
+        // console.log(typeof x);
+        // var num = 9.65;
+        // num = num.toExponential(8);
+        // var x = 9.99;
+        // x = x.toFixed(2);
+        // var x = Number("22");
+        // var displayDate = "500000";
+        // var displayDateConvertIntoNumber = Number(displayDate);
+        // var x = "5000";
+        // var y = parseInt(x);
+        // var x = Number.MIN_VALUE;
+        // var x = -1 / 0;
+        // var x = NaN;
+        // var carName1 = "Mehran";
+        // var carName2 = "Alto";
+        // var carName3 = "Cultus";
+        // var carName4 = "Corolla";
+        // var carName5 = "Civic";
+        // var carNames = ["Mehran", "Civic", "Alto", "Corolla", "Cultus", "Margalla", "City"];
+        // carNames[3] = "BMW";
+        // var person = ["Sameer", "Asad", "Karachi", 19];
+        // var person1 = {
+        //     firstName: "Sameer",
+        //     lastName: "Asad",
+        //     City: "Karachi",
+        //     Age: 19
+        // };
+        // var x = {
+        //     firstName: "Sameer",
+        //     lastName: "Asad",
+        //     City: "Karachi",
+        //     Age: 19
+        // };
+        // function myFunction(a, b) {
+        //     return a + b;
+        // }
+        // var carNames = ["Mehran", "Civic", "Corolla", "Cultus", "Alto"];
+        // var myArrays = [x.City, myFunction(5, 15), carNames];
+        // var carNames = ["Mehran", "Civic", "Corolla", "Cultus", "Alto"];
+        // var x = carNames[carNames.length -1];
+        // var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // var flen = fruits.length;
+        // var text = "<ul>";
+        // for (var i = 0; i < flen; i++) {
+        //     text += "<li>" + fruits[i] + "</li>";
+        // }
+        // text += "</ul>";
+        // document.getElementById("demo").innerHTML = text;
+        // var carNames = ["Mehran", "Civic", "Corolla", "Cultus", "Alto"];
+        // carNames.push("Audi");
+        // var carNames = ["Mehran", "Civic", "Corolla", "Cultus", "Alto"];
+        // carNames[carNames.length] = "Audi";
+        // var carNames = ["Mehran", "Civic", "Corolla", "Cultus", "Alto"];
+        // carNames[8] = "BMW";
+        // var carNames = ["Mehran", "Civic", "Corolla", "Cultus", "Alto"];
+        // var points = [40, 100, 1, 5, 25, 10];
+        // document.getElementById("demo").innerHTML = myArrayMax(points);
+
+        // function myArrayMax(arr) {
+        //     var len = arr.length;
+        //     var min = Infinity;
+        //     while (len--) {
+        //         if (arr[len] < min) {
+        //             min = arr[len];
+        //         }
+        //     }
+        //     return min;
+        // }
+        // var x = Math.random();
+        // console.log(x);
+        // var x = Math.random() * 6;
+        // var y = Math.floor(x) + 1;
+        // console.log(y);
+        // function myFunction() {
+        //     var age, voteable;
+        //     age = Number(document.getElementById("age").value);
+        //     if (isNaN(age)) {
+        //         voteable = "Input is Not a Number";
+        //     }
+        //     else {
+        //         voteable = (age < 18) ? "Too Young" : "Old Enough";
+        //     }
+        //     document.getElementById("demo").innerHTML = voteable;
+        // }
+        // if (new Date().getHours() < 18) {
+        //     var greeting;
+        //     greeting = "good day";
+        //     document.getElementById("demo").innerHTML = greeting;
+        // }    
+        // var age = Number(prompt("What's Your Age?"));
+        // var admission;
+        // if (age > 18) {
+        //     admission = "You are Qualified for this Job..!";
+        // }
+        // else {
+        //     admission = "You are not Qualified for this Job..!";
+        // }
+        // document.getElementById("demo").innerHTML = admission;
+        // var day;
+        // var dte = new Date().getDay();
+        // switch (dte) {
+        //     case 0:
+        //         day = "Sunday";
+        //         break;
+        //     case 1:
+        //         day = "Monday";
+        //         break;
+        //     case 2:
+        //         day = "Tuesday";
+        //         break;
+        //     case 3:
+        //         day = "Wednesday";
+        //         break;
+        //     case 4:
+        //         day = "Thursday";
+        //         break;
+        //     case 5:
+        //         day = "Friday";
+        //         break;
+        //     case 6:
+        //         day = "Saturday";
+        //         break;
+        // }
+        // console.log(day);
+        // var day;
+        // var dte = new Date();
+        // var setDate = dte.setFullYear(2019, 6, 2);
+        // switch (setDate) {
+        //     case 6:
+        //         day = "Saturday";
+        //         break;
+        //     case 0:
+        //         day = "Sunday";
+        //         break;
+        //     default:
+        //         day = "Looking forward to the weekend";
+        // }
+        // console.log(day);
+        // var cars = ["Mehran", "Corolla", "Civic", "Cultus", "Alto", "Vitz"];
+        // var text = cars[0] + "<br>";
+        // text += cars[1] + "<br>";
+        // text += cars[2] + "<br>";
+        // text += cars[3] + "<br>";
+        // text += cars[4] + "<br>";
+        // text += cars[5] + "<br>";
+        // document.getElementById("demo").innerHTML = text;
+        // var cars = ["Mehran", "Corolla", "Civic", "Cultus", "Alto", "Vitz", "Honda", "Suzuki", "BMW", "Audi R8"];
+        // var text = "";
+        // for (var i = 0; i < cars.length; i++) {
+        //     text += cars[i] + "<br>";
+        // }
+        // document.getElementById("demo").innerHTML = text;
+        // var text = "";
+        // var i = 0;
+        // while (i <= 10) {
+        //     text += "The Number is " + i + "<br>";
+        //     i++;
+        // }
+        // document.getElementById("demo").innerHTML = text;
+        // var text = "";
+        // var i = 0;
+
+        // do {
+        //     text += "The Number is " + i + "<br>";
+        //     i++;
+        // }
+        // while (i <= 10);
+        // document.getElementById("demo").innerHTML = text;
+        // var text = "";
+        // var i;
+        // for (i = 0; i < 10; i++) {
+        //     if (i === 3) {
+        //         break;
+        //     }
+        //     text += "The Number is " + i + "<br>";
+        // }
+        // document.getElementById("demo").innerHTML = text;
+        // var x = "5";
+        // var y = + x;
+        // var x = "Sameer";
+        // var y = + x;
+        // var text = "Are you There, if You are there please come There..";
+        // var pattern1 = /there/g;
+        // var changingCaseInsensitive = /pattern1/i;
+        // var result = text.match(pattern1);
+        // try {
+        //     addlert("Hello World");  
+        // } 
+        // function myCar() {
+        //     var car = "Mehran";
+        //     document.getElementById("demo").innerHTML = car;
+        // }
+        // console.log(myCar());
+        // var car = "Mehran";
+        // var car = "Mehran";
+        // function myCar() {
+        //     document.getElementById("demo").innerHTML = "My Car Name is " + car;
+        // }
+        // myCar();
+        // function myCar() {
+        //     carName = "Mehran";
+        // }
+        // myCar();
+        // document.getElementById("demo").innerHTML = carName;
+        // x = 10;
+        // var e = document.getElementById("demo").innerHTML = x;
+        // var x;
+        // var x = 5;
+        // var y = 8;
+        // var e = document.getElementById("demo").innerHTML = x + " " + y;
+        // var x = 5;
+        // var y;
+        // var e = document.getElementById("demo").innerHTML = x + " " + y;
+        // y = 8;
+        // x = 5;
+        // var elem = document.getElementById("demo").innerHTML = x;
+        // var x;
+        // var x;
+        // x = 5;
+        // document.getElementById("demo").innerHTML = x;
+        // var x = 5;
+        // var y = 7;
+        // document.getElementById("demo").innerHTML = x + " " + y;
+        // var x = 5;
+        // y = 7;
+        // document.getElementById("demo").innerHTML = x + " " + y;
+        // var y;
+        // var x = 5;
+        // var y;
+        // document.getElementById("demo").innerHTML = x + " " + y;
+        // y = 7;
+        // "use strict";
+        // x = 3.14;
+        // function myFunction() {
+        //     y = 4.59;
+        // }
+        // var e = myFunction();
+        // x = 3.14;
+        // function myFunction() {
+        //     "use strict";
+        //     y = 4.59;
+        // }
+        // myFunction();
+        // var person = {
+        //     firstName: "Sameer",
+        //     lastName: "Asad",
+        //     id: 000022,
+        //     fullName: function() {
+        //         return this.firstName + " " + this.lastName;
+        //     }
+        // }
+        // document.getElementById("demo").innerHTML = person.fullName();
+        // var x = this;
+        // document.getElementById("demo").innerHTML = x;
+        // var person1 = {
+        //     fullName: function() {
+        //         return this.firstName + " " + this.lastName;
+        //     }
+        // }
+        // var person2 = {
+        //     firstName: "Sameer",
+        //     lastName: "Asad"
+        // }
+        // var ans = document.getElementById("demo").innerHTML = person1.fullName.call(person2);
+        // var carName = "Mehran";
+        // function myFunction() {
+        //     var firstName = "Sameer";   
+        // }
+        // {
+        //     var x = 3;
+        // }
+        // {
+        //     let x = 3;
+        // }
+        // var x = 10;
+        // {
+        //     var x = 2;
+        // }
+        // var x = 10;
+        // {
+        //     let x = 2;
+        // }
+        // var i = 5;
+        // for (var i = 0; i < 10; i++) {
+        //     // some statements
+        // }
+        // document.getElementById('demo').innerHTML = i;
+        // let i = 5;
+        // for (let i = 0; i < 10; i++) {
+        //     // some statements
+        // }
+        // document.getElementById("demo").innerHTML = i;
+        // function myFunction() {
+        //     var carName = "Mehran";
+        // }
+
+        // function myFirstLet() {
+        //     let fullName = "Sameer";
+        // }
+        // 36.00000000000
+
+        // var carName = "mehran";
+        // console.log("I have a " + window.carName);
+
+        // let carName = "mehran";
+        // console.log("I have a " + window.carName);
+
+        // var fullName = "Saqib Javaid";
+        // var fullName = "Sameer Asad";
+
+        // var x = 2;
+        // let x = 3;
+
+        // {
+        //     var x = 4;
+        //     let x = 5;
+        // }
+
+        // let x = 3;
+
+        // {
+        //     let x = 4;
+        // }
+        // {
+        //     let x = 6;
+        // }
+
+        // carName = "Mehran";
+        // console.log(carName);
+        // var carName;
+
+        // carName = "Mehran";
+        // console.log(carName);
+        // let carName;
+
+        // try {
+        //     const PI = 3.1455111651655351;
+        //     PI = 3.14;
+        // }
+        // catch (err) {
+        //     document.getElementById("demo").innerHTML = err;
+        // }
+
+        // var x = 10;
+        // // Here the x is 10
+
+        // {
+        //     const x = 2;
+        //     // Here the x is 2
+        // }
+
+        // // Here the x is 10
+
+        // const PI = 3.14000205212;
+        // PI = 3.14;
+        // PI = 3.14 + 10;
+
+        // var x = 10;
+        // // Here the x is 10
+
+        // {
+        //     const x = 2;
+        //     console.log(x);
+        //     // Here the x is 2
+        // }
+
+        // Here the x is 10
+
+        // const name;
+        // name = Sameer;
+
+        // const name = "Sameer";
+
+        // const car = {
+        //     type: "Mehran",
+        //     model: 2018,
+        //     color: "Black"
+        // };
+
+        // car.color = "Gray";
+        // car.owner = "Sameer";
+
+        // const car = {
+        //     type: "Mehran",
+        //     model: 2018,
+        //     color: "Black",
+        //     owner: "Sameer"
+        // };
+        
+        // car = {
+        //     type: "Corolla",
+        //     model: 2019,
+        //     color: "Golder",
+        //     owner: "John"
+        // };
+
+        // const cars = ["Mehran", "Corolla", "Vitz", "Cultus"];
+        // cars[0] = "Toyota";
+        // cars.push("BMW");
+
+        // var x = 3;
+        // var x = 2;
+        // x = 7;
+
+        // var x = 3;
+
+        // {
+        //     var x = 3;
+        // }
+
+        // let x = 3;
+
+        // {
+        //     let x = 3;
+        //     console.log(x);
+        // }
+
+        // let x = 3;
+        // x = 5;
+
+        // let x = 5;
+
+        // {
+        //     let x = 4;
+        // }
+
+        // var x = 19;
+        // var x = 45;
+
+        // var x = 10;
+
+        // {
+        //     var x = 30;
+        // }
+
+        // function myCar() {
+        //     return "Hello World";
+        // }
+        // document.getElementById("demo").innerHTML = myCar();
+
+        // var myCar;
+        // myCar = function() {
+        //     return "Hello World";
+        // }
+        // document.getElementById("demo").innerHTML = myCar();
+
+        // var hello;
+        // hello = function() {
+        //     return "Hello World";
+        // }
+        // document.getElementById("demo").innerHTML = hello();
+
+        // var car;
+        // car = () => {
+        //     return "Hello World";
+        // }
+        // document.getElementById("demo").innerHTML = car();   
+
+        // var hello;
+        // hello = (hel, val) => hel + " " + val;
+        // document.getElementById("demo").innerHTML = hello("Hello", "World");
+
+    </script>
+</html>
